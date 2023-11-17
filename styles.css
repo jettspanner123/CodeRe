@@ -254,7 +254,7 @@ img {
     font-weight: bold;
     padding: 1rem;
     margin-inline: auto;
-    margin-top: 10rem;
+        margin-top: 10rem;
     width: 20rem;
     display: flex;
     justify-content: center;

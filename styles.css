@@ -451,9 +451,3 @@ img {
     border-radius: 0.5rem;
 }
 
-
-@media (max-width:  1000px) {
-    .saat {
-        font-size: 5rem;
-    }
-}

@@ -191,11 +191,59 @@ top: 60vh;
     text-align: center;
 }
 
+
+.third_div {
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 200vh;
+    background: linear-gradient(to bottom, black 50%, #1b1e35 90%);
+}
+
 .submitButton {
     background-color: white;
     width: 60%;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.76rem;
+    outline: none;
+    font-weight: bold;
+    border: 0.5px solid white;
+    transition: all 250ms;
+}
+
+
+.third_div {
+    position: relative;
+}
+
+.saatSamundar {
+    font-size: 3rem;
+    position: absolute;
+    top: -2.5rem;
+    z-index: 10000;
+    background: black;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 3px solid white;
+}
+
+.submitButton:hover {
+    background-color: rgba(0,0,0,0.66);
+    color: white;
+}
+
+.upThing {
+    color: black;
+    background-color: white;
+    position: absolute;
+    padding-inline: 2rem;
+    top: -4.9rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding-block: 1rem;
+    font-size: 2rem;
 
 }
 
@@ -205,6 +253,7 @@ top: 60vh;
     height: 5px;
     position: absolute;
     top: 0;
+    z-index: 10;
 }
 .samundar {
     font-size: 8rem;

@@ -232,6 +232,35 @@ img {
     cursor: default;
 }
 
+.aboutUsHeading {
+    font-size: 8rem;
+    color: white;
+    text-align: center;
+    margin-block: 2rem;
+}
+
+.aboutUsParagraph {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-inline: 10rem;
+    margin-top: 8rem;
+}
+
+
+.readMore {
+    background: white;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-inline: auto;
+    margin-top: 10rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
 .fourth_page {
     min-height: 100vh;
     min-width: 100vw;

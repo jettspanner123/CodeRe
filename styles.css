@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vina+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar_heading {
+
+}
+
+.navbar_list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 200ms;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+ul li a:hover {
+    background: white;
+    color: black;
+}
+
+
+body {
+    background: black;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+ }
+.backgroundThing {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: rotateInfit 10s infinite linear;
+}
+
+.SILGform {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formHeading {
+    font-size: 6rem;
+    margin-block: 3rem;
+}
+
+.usernameDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.5px solid white;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 60%;
+    background-color: rgba(0,0,0,0.45);
+}
+
+.usernameText {
+    text-align: left;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-block: 1.5rem;
+
+}
+
+.usernameInput{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border: 0.5px solid white;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+input::placeholder {
+    color: white;
+}
+.input {
+    background-color: transparent;
+    color: white;
+
+
+}
+
+
+
+
+.underline {
+    height: 10px;
+    border-radius: 1rem;
+    width:100%;
+    background-color: white;
+}
+
+.coreBody {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mainbody {
+    width: 100vw;
+    background-color: rgba(0,0,0,0.95);
+    height: 100vh;
+    position: absolute;
+    top: 100vh;
+}
+
+.mainDivHeading {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20vh;
+
+
+}
+
+.getGoButton {
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border-radius: 0.5rem;
+    left: 50%;
+    position: absolute;
+top: 60vh;
+    width: 70%;
+    transform: translate(-50%);
+    transition: all 250ms ease-in-out;
+}
+
+.getGoButton:hover {
+    background: white;
+    color: black;
+}
+
+.secondaryDivHeading {
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    top: 42vh;
+    font-style: italic;
+    transform: translate(-50%);
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: left;
+}
+.saat {
+    font-size: 8rem;
+    text-align: center;
+}
+
+.submitButton {
+    background-color: white;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.divider {
+    width: 100vw;
+    background-color: white;
+    height: 5px;
+    position: absolute;
+    top: 0;
+}
+.samundar {
+    font-size: 8rem;
+    text-align: center;
+}
+
+
+.paar {
+    font-size: 8rem;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.main_heading {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 80vw;
+    border: 0.5px solid white;
+    display: flex;
+    color: white;
+    position: fixed;
+    left: 50%;
+    top: 1.6rem;
+    background: rgba(0,0,0,0.39);
+    backdrop-filter: blur(200px);
+    transform: translate(-50%);
+    justify-content: space-between;
+    padding-inline: 3rem;
+    padding-block: 0.5rem;
+    border-radius: 1rem;
+    align-content: center;
+}
+
+
+
+.main_div {
+    min-height: 100vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(50px);
+}
+
+
+@keyframes rotateInfit {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.passwordDiv {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     border: 0.5px solid white;
+     align-items: center;
+     padding: 1rem;
+     border-radius: 1rem;
+     width: 60%;
+    margin-block: 2rem;
+     background-color: rgba(0,0,0,0.45);
+ }
+
+.passwordText {
+    text-align: left;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-block: 1.5rem;
+
+}
+
+.passwordInput{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    border: 0.5px solid white;
+    outline: none;
+    border-radius: 0.5rem;
+}
